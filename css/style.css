@@ -6,6 +6,7 @@ html {
   font-family: 'Poppins', sans-serif;
   font-family: 'Quicksand', sans-serif;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,9 +17,44 @@ body {
 .header-nav {
   height: 48px;
   width: 100%;
+  display: flex;
 }
 
 .header-nav .tnw-logo {
-  width: 33.125%;
+  width: 106px;
   background-color: black;
+  height: 48px;
+  text-align: center;
+}
+
+.header-nav .tnw-logo .svg-1 {
+  height: 16px;
+  padding: 16px 0;
+}
+
+.header-nav .nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid #eeeeee;
+}
+
+.header-nav .nav-container .icons-nav {
+  width: 96px;
+  display: flex;
+  overflow: hidden;
+}
+
+.header-nav .nav-container .icons-nav .both-icons {
+  width: 48px;
+  height: 48px;
+  border-left: 1px solid #eeeeee;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.header-nav .nav-container .icons-nav .menu-nav {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
 }
