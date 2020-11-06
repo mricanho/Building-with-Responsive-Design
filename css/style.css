@@ -56,6 +56,7 @@ p {
   display: flex;
   position: fixed;
   background: white;
+  z-index: 999;
 }
 
 .header-nav .tnw-logo {
@@ -270,3 +271,133 @@ p {
   background-position: 50%;
 }
 
+
+/* Funding rounds section */
+
+.funding-rounds {
+  box-sizing: border-box;
+  margin: 0 20px 30px 20px;
+}
+
+.funding-rounds .fr-tittle-container {
+  color: #FA4422;
+  display: flex;
+}
+
+.funding-rounds .next-arrow {
+  height: 16px;
+  box-sizing: border-box;
+  margin-top: 11px;
+}
+
+.funding-rounds .fr-nav {
+  color: #FA4422;
+  font-size: 0.8em;
+  font-weight: 550;
+  line-height: 2;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.funding-rounds .fr-box {
+  height: 282.13px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.funding-rounds .fr-box .upper-box {
+  height: 35%;
+  display: flex;
+}
+
+.funding-rounds .fr-box .upper-box .fr-img {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  box-sizing: border-box;
+  margin: 10px;
+  position: absolute;
+}
+
+.funding-rounds .fr-box .upper-box .fr-presentation {
+  width: 100%;
+}
+
+.funding-rounds .fr-box .upper-box .company-name {
+  height: 43.31px;
+  width: 100%;
+  background: #FA4422;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 75px;
+  font-size: 1.1em;
+  font-weight: 1000;
+  padding-top: 10px;
+}
+
+.funding-rounds .fr-box .upper-box .details {
+  background: #FEEBE7;
+  height: 59.31px;
+  padding-left: 75px;
+  padding-top: 10px;
+}
+
+.funding-rounds .fr-box .upper-box .details .money {
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+
+.funding-rounds .down-box {
+  height: 163.5px;
+  background: #FFFAF8;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.funding-rounds .down-box .fr-info {
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #FEC5BB;
+  width: 100%;
+  padding-left: 15px;
+  height: 50%;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.funding-rounds .down-box .type-company {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.funding-rounds .down-box .type-company img {
+  margin-right: 10px;
+}
+
+.funding-rounds .down-box .type-fund {
+  display: flex;
+}
+
+.funding-rounds .down-box .type-fund img {
+  margin-right: 10px;
+}
+
+.funding-rounds .down-box .from-who {
+  padding-left: 15px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.funding-rounds .down-box .from-who .last-line {
+  display: flex;
+}
+
+.funding-rounds .down-box .from-who .last-line .fr-different {
+  padding-left: 2px;
+  color: #929292;
+}
