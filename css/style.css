@@ -21,7 +21,7 @@ body {
 }
 
 .header-nav .tnw-logo {
-  width: 106px;
+  width: 33.125%;
   background-color: black;
   height: 48px;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .header-nav .nav-container {
-  width: 100%;
+  width: 66.875%;
   display: flex;
   justify-content: flex-end;
   border: 1px solid #eeeeee;
