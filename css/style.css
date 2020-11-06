@@ -160,7 +160,7 @@ p {
 
 .latest-news {
   box-sizing: border-box;
-  margin: 50px 10px;
+  margin: 50px 20px;
 }
 
 .latest-news .ln-tittle-container {
@@ -209,7 +209,7 @@ p {
 }
 
 .latest-news .ln-info {
-  display: flex;
+
   color: #bcbcbc;
   font-weight: 600;
 }
