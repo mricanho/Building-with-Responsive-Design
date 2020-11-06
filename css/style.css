@@ -7,17 +7,48 @@ html {
   font-family: 'Quicksand', sans-serif;
   flex-direction: column;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
   width: 100%;
+  display: block;
 }
+
+h1, h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+  line-height: 0.8;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;  
+  font-size: .8em;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.75em;
+}
+
+
 /* Header Nav */
 
 .header-nav {
   height: 48px;
   width: 100%;
   display: flex;
+  position: fixed;
+  background: white;
 }
 
 .header-nav .tnw-logo {
@@ -58,3 +89,64 @@ body {
   height: 16px;
   margin-top: 2px;
 }
+
+/* Section Cover-stories */
+
+.cover-stories {
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 80px;
+}
+
+.cover-stories .box-cover {
+  color: white;
+  margin: 10px;
+  height: 157.59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.cover-stories .box-cover .article-category {
+  margin-bottom: -15px;
+
+}
+
+.cover-stories .box-cover .story-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  width: 280px;
+  box-sizing: border-box;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.cover-stories .special-tittle {
+  margin-bottom: -50px;
+}
+
+.cover-stories .first-cover {
+  margin-top: 30px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-17-796x417.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.cover-stories .second-cover {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/global-boardroom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover-stories .third-cover {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-3-796x417.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
