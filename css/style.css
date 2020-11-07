@@ -421,3 +421,14 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+/* grid-diversity  */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 668.750px repeat(9, 1fr);
+  gap: 20px 0px;
+}
