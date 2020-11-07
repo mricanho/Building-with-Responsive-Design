@@ -425,8 +425,223 @@ p {
 .grid-diversity {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 668.75px repeat(9, 668.75px);
+  grid-template-rows: repeat(9, 660px);
   gap: 20px 0;
   box-sizing: border-box;
   padding: 20px;
 }
+
+.grid-diversity .box-diversity {
+  box-sizing: border-box;
+  margin-bottom: -30px;
+}
+
+.grid-diversity .box-diversity .diversity-tittle-container {
+  display: flex;
+  color: #fa4422;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.box-diversity .diversity-tittle-container .next-arrow {
+  height: 16px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.grid-diversity .box-diversity .header-diversity {
+  height: 31.40%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  box-sizing: border-box;
+  padding: 100px 10px 0 10px;
+  background: rgb(109, 88, 43);
+  color: white;
+  overflow: hidden;
+}
+
+.grid-diversity .box-diversity .header-diversity .article-tittle {
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.grid-diversity .box-diversity .article-diversity {
+  box-sizing: border-box;
+  height: 96px;
+  background: #FFF3F2;
+  color: #fa4422;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1px;
+}
+
+.grid-diversity .box-diversity .article-diversity .ultimate-diversity {
+  box-sizing: border-box;
+  padding: 10px 10px 0 10px;
+  width: 65.71%;
+  overflow: hidden;
+}
+
+.grid-diversity .box-diversity .article-diversity .ultimate-diversity .when-diversity {
+  margin-bottom: 5px;
+}
+
+.grid-diversity .box-diversity .article-diversity .img-article {
+  box-sizing: border-box;
+  height: 96px;
+  width: 96px;
+}
+
+.grid-diversity .box-diversity .resume-diversity {
+  box-sizing: border-box;
+}
+
+.grid-diversity .box-diversity .resume-diversity ul {
+  margin-left: 10px;
+  line-height: 1.5;
+}
+
+.grid-diversity .box-diversity .resume-diversity ul .article-d {
+  color: #555555;
+  font-size: 0.8em;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 10px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.grid-diversity .box-diversity .resume-diversity ul li:before {
+  color:#ed0000;
+  content:"\25AA"; 
+  font-size: 1em;
+  padding-right: 10px; 
+  top: -0.2em;  
+  margin-left: -15px;
+  box-sizing: border-box;
+}
+
+.grid-diversity .hard-fork .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/pexels-worldspectrum-844127-368x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .hard-fork .article-diversity .img-article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/01/WhatsApp-payments-hed.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .apps .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/car-what3words-here-navigation-satnav-future-ev-travel-car-368x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .apps .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/unnamed.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .gear .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/google-photos-whatsapp-backup-368x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .gear .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/stadiapizza.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .tech .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-19-368x276.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .tech .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-17.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+
+.grid-diversity .creative .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .creative .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/card-v-card-bank-account-multiplayer-game.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .podium .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium-368x276.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .podium .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .insights .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/pexels-worldspectrum-844127-368x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .insights .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/boris-future-thinking-task.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .launch .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium-368x276.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .launch .article-diversity .img-article {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Amazon-Rivian-electric-delivery-van.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.grid-diversity .distract .header-diversity {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/WDL_screen_CoOp_e3_190610_2pm_PST_1560170638-368x276.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-diversity .distract .article-diversity .img-article {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/reddit-deleted-posts-comments-threads.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+
+
