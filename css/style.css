@@ -314,7 +314,6 @@ p {
 .funding-rounds .fr-box .upper-box .fr-img {
   width: 50px;
   height: 50px;
-  background-color: aqua;
   box-sizing: border-box;
   margin: 10px;
   position: absolute;
@@ -400,4 +399,25 @@ p {
 .funding-rounds .down-box .from-who .last-line .fr-different {
   padding-left: 2px;
   color: #929292;
+}
+
+.funding-rounds .fr-1 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F976320572174098432%2FpdjRTkiO.jpg&signature=5375934e5a3ea0ad7b931970674db592);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funding-rounds .fr-2 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F889911769594023936%2F41ZndoQg.jpg&signature=2dc9e6049bf2ba488dcd64bbb8e09843);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funding-rounds .fr-3 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F872115588323258368%2FERUMO3sS.jpg&signature=da19c7ac9c9be17623cfc620ee006906);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
