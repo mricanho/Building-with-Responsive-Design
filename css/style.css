@@ -15,7 +15,8 @@ body {
   display: block;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Darker Grotesque', sans-serif;
   line-height: 0.8;
   font-weight: 800;
@@ -31,8 +32,8 @@ h2 {
 
 h3 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 100;  
-  font-size: .8em;
+  font-weight: 100;
+  font-size: 0.8em;
 }
 
 h4 {
@@ -48,7 +49,7 @@ p {
 }
 
 
-                        /* Header Nav */
+/* Header Nav */
 
 .header-nav {
   height: 48px;
@@ -75,7 +76,7 @@ p {
   width: 66.875%;
   display: flex;
   justify-content: flex-end;
-  border: 1px solid #eeeeee;
+  border: 1px solid #eee;
 }
 
 .header-nav .nav-container .icons-nav {
@@ -87,7 +88,7 @@ p {
 .header-nav .nav-container .icons-nav .both-icons {
   width: 48px;
   height: 48px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #eee;
   text-align: center;
   padding: 14px 0;
 }
@@ -98,7 +99,7 @@ p {
   margin-top: 2px;
 }
 
-                 /* Section Cover-stories */
+/* Section Cover-stories */
 
 .cover-stories {
   width: 100%;
@@ -120,7 +121,6 @@ p {
 
 .cover-stories .box-cover .article-category {
   margin-bottom: -15px;
-
 }
 
 .cover-stories .box-cover .story-info {
@@ -142,7 +142,6 @@ p {
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-17-796x417.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .cover-stories .second-cover {
@@ -157,7 +156,7 @@ p {
   background-repeat: no-repeat;
 }
 
-                        /* Latest news section */
+/* Latest news section */
 
 .latest-news {
   box-sizing: border-box;
@@ -173,7 +172,7 @@ p {
 
 .latest-news .ln-tittle {
   margin-bottom: 20px;
-  color: #FA4422;
+  color: #fa4422;
   font-weight: 900;
 }
 
@@ -210,7 +209,6 @@ p {
 }
 
 .latest-news .ln-info {
-
   color: #bcbcbc;
   font-weight: 600;
 }
@@ -276,11 +274,11 @@ p {
 
 .funding-rounds {
   box-sizing: border-box;
-  margin: 0 20px 30px 20px;
+  margin: 0 20px -10px 20px;
 }
 
 .funding-rounds .fr-tittle-container {
-  color: #FA4422;
+  color: #fa4422;
   display: flex;
 }
 
@@ -291,7 +289,7 @@ p {
 }
 
 .funding-rounds .fr-nav {
-  color: #FA4422;
+  color: #fa4422;
   font-size: 0.8em;
   font-weight: 550;
   line-height: 2;
@@ -311,6 +309,27 @@ p {
   display: flex;
 }
 
+.funding-rounds .fr-1 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F976320572174098432%2FpdjRTkiO.jpg&signature=5375934e5a3ea0ad7b931970674db592);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funding-rounds .fr-2 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F889911769594023936%2F41ZndoQg.jpg&signature=2dc9e6049bf2ba488dcd64bbb8e09843);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funding-rounds .fr-3 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F872115588323258368%2FERUMO3sS.jpg&signature=da19c7ac9c9be17623cfc620ee006906);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .funding-rounds .fr-box .upper-box .fr-img {
   width: 50px;
   height: 50px;
@@ -326,7 +345,7 @@ p {
 .funding-rounds .fr-box .upper-box .company-name {
   height: 43.31px;
   width: 100%;
-  background: #FA4422;
+  background: #fa4422;
   color: white;
   box-sizing: border-box;
   padding-left: 75px;
@@ -336,7 +355,7 @@ p {
 }
 
 .funding-rounds .fr-box .upper-box .details {
-  background: #FEEBE7;
+  background: #feebe7;
   height: 59.31px;
   padding-left: 75px;
   padding-top: 10px;
@@ -350,7 +369,7 @@ p {
 
 .funding-rounds .down-box {
   height: 163.5px;
-  background: #FFFAF8;
+  background: #fffaf8;
   padding-top: 20px;
   box-sizing: border-box;
 }
@@ -358,7 +377,7 @@ p {
 .funding-rounds .down-box .fr-info {
   box-sizing: border-box;
   padding-bottom: 10px;
-  border-bottom: 1px solid #FEC5BB;
+  border-bottom: 1px solid #fec5bb;
   width: 100%;
   padding-left: 15px;
   height: 50%;
@@ -401,34 +420,13 @@ p {
   color: #929292;
 }
 
-.funding-rounds .fr-1 .fr-img {
-  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F976320572174098432%2FpdjRTkiO.jpg&signature=5375934e5a3ea0ad7b931970674db592);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.funding-rounds .fr-2 .fr-img {
-  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F889911769594023936%2F41ZndoQg.jpg&signature=2dc9e6049bf2ba488dcd64bbb8e09843);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.funding-rounds .fr-3 .fr-img {
-  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F872115588323258368%2FERUMO3sS.jpg&signature=da19c7ac9c9be17623cfc620ee006906);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-
 /* grid-diversity  */
 
-.grid-container {
+.grid-diversity {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 668.750px repeat(9, 1fr);
-  gap: 20px 0px;
+  grid-template-rows: 668.75px repeat(9, 668.75px);
+  gap: 20px 0;
+  box-sizing: border-box;
+  padding: 20px;
 }
