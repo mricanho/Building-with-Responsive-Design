@@ -48,7 +48,6 @@ p {
   font-size: 0.75em;
 }
 
-
 /* Header Nav */
 
 .header-nav {
@@ -269,7 +268,6 @@ p {
   background-position: 50%;
 }
 
-
 /* Funding rounds section */
 
 .funding-rounds {
@@ -450,7 +448,7 @@ p {
 }
 
 .grid-diversity .box-diversity .header-diversity {
-  height: 31.40%;
+  height: 31.4%;
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -470,7 +468,7 @@ p {
 .grid-diversity .box-diversity .article-diversity {
   box-sizing: border-box;
   height: 96px;
-  background: #FFF3F2;
+  background: #fff3f2;
   color: #fa4422;
   display: flex;
   justify-content: space-between;
@@ -504,10 +502,10 @@ p {
 }
 
 .grid-diversity .box-diversity .resume-diversity ul .article-d {
-  color: #555555;
+  color: #555;
   font-size: 0.8em;
   box-sizing: border-box;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
   margin-top: 10px;
   vertical-align: middle;
   padding-bottom: 5px;
@@ -515,12 +513,12 @@ p {
   padding-left: 10px;
 }
 
-.grid-diversity .box-diversity .resume-diversity ul li:before {
-  color:#ed0000;
-  content:"\25AA"; 
+.grid-diversity .box-diversity .resume-diversity ul li::before {
+  color: #ed0000;
+  content: "\25AA";
   font-size: 1em;
-  padding-right: 10px; 
-  top: -0.2em;  
+  padding-right: 10px;
+  top: -0.2em;
   margin-left: -15px;
   box-sizing: border-box;
 }
@@ -576,7 +574,6 @@ p {
   background-position: 50%;
   background-size: cover;
 }
-
 
 .grid-diversity .creative .header-diversity {
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg");
@@ -642,6 +639,3 @@ p {
   background-position: 50%;
   background-size: cover;
 }
-
-
-
