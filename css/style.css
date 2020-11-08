@@ -759,3 +759,61 @@ p {
   background-position: 50%;
   background-size: cover;
 }
+
+/* Footer section */
+
+footer .footer-links {
+  height: 161px;
+  background: #131313;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+footer .footer-links .social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0 10px 0;
+}
+
+footer .footer-links .footer-nav {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7em;
+  justify-content: space-evenly;
+  height: 48px;
+  text-align: center;
+  font-weight: 100;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer .footer-links .social-media .icon {
+  border-radius: 50%;
+  display: flex;
+  background-color: #333;
+  padding: 10px;
+  border: 1px solid #333;
+  align-items: center;
+}
+
+footer .footer-legal {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  align-items: center;
+}
+
+footer .footer-legal .first-line {
+  display: flex;
+}
+
+footer .footer-legal .tnw {
+  height: 10px;
+}
+
+footer .footer-legal .last-logo {
+  height: 9px;
+}
