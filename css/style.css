@@ -639,3 +639,14 @@ p {
   background-position: 50%;
   background-size: cover;
 }
+
+/* Latest Deals section  */
+
+.grid-latest {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 88px);
+  gap: 20px 0;
+  box-sizing: border-box;
+  padding: 20px;
+}
