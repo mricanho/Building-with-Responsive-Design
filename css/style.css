@@ -1520,14 +1520,17 @@ footer .footer-legal .last-logo {
     flex-direction: column;
   }
 
-  /* Grid Diversity */
+  /* Grid Diversity 1024px*/
 
   .grid-diversity {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 685px);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 675px);
+    gap: 30px;
     box-sizing: border-box;
+    margin: 0 112.5px 70px 112.5px;
+    padding: 0;
+    font-size: 1.15em;
   }
 
   /* Latest Deals section */
