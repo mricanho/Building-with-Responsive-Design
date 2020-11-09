@@ -1114,11 +1114,25 @@ footer .footer-legal .last-logo {
   /* Footer */
 
   footer .footer-wrap {
-    margin-left: 23%;
+    margin-left: 24%;
   }
 
   footer .footer-links .social-media,
   .footer-nav {
     width: 70%;
+  }
+
+  footer .legal-wrapper {
+    background: black;
+  }
+
+  footer .footer-legal {
+    display: flex;
+    margin-left: 21%;
+    font-size: 1.1em;
+  }
+
+  footer .footer-legal p {
+    margin-right: 5px;
   }
 }
