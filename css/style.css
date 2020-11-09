@@ -1,5 +1,4 @@
 html {
-  display: flex;
   justify-content: center;
   width: 100%;
   font-family: 'Darker Grotesque', sans-serif;
@@ -53,6 +52,33 @@ p {
   font-size: 0.75em;
 }
 
+html,
+.header-nav,
+.header-nav .nav-container-right,
+.header-nav .nav-container-right .icons-nav,
+.cover-stories .box-cover,
+.cover-stories .box-cover .story-info,
+.latest-news .ln-tittle-container,
+.latest-news .ln-article,
+.funding-rounds .fr-tittle-container,
+.funding-rounds .fr-box .upper-box,
+.funding-rounds .down-box .fr-info,
+.funding-rounds .down-box .type-company,
+.funding-rounds .down-box .type-fund,
+.funding-rounds .down-box .from-who .last-line,
+.grid-diversity .box-diversity .diversity-tittle-container,
+.grid-diversity .box-diversity .header-diversity,
+.grid-diversity .box-diversity .article-diversity,
+.latest-deals .latest-tittle-container,
+.grid-latest .latest-box,
+.grid-latest .latest-box .deal-text .prices,
+footer .footer-links .social-media,
+footer .footer-links .footer-nav,
+footer .footer-links .social-media .icon,
+footer .footer-legal .first-lin {
+  display: flex;
+}
+
 /* Header Nav */
 
 .up-nav {
@@ -62,7 +88,6 @@ p {
 .header-nav {
   height: 48px;
   width: 100%;
-  display: flex;
   position: fixed;
   background: white;
   z-index: 999;
@@ -95,13 +120,11 @@ p {
 }
 
 .header-nav .nav-container-right {
-  display: flex;
   justify-content: flex-end;
 }
 
 .header-nav .nav-container-right .icons-nav {
   width: 96px;
-  display: flex;
   overflow: hidden;
   cursor: pointer;
 }
@@ -133,7 +156,6 @@ p {
   color: white;
   margin: 10px;
   height: 157.59px;
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   box-sizing: border-box;
@@ -146,7 +168,6 @@ p {
 }
 
 .cover-stories .box-cover .story-info {
-  display: flex;
   justify-content: space-between;
   margin-top: -10px;
   width: 280px;
@@ -190,7 +211,6 @@ p {
 }
 
 .latest-news .ln-tittle-container {
-  display: flex;
   text-align: center;
   width: 100%;
   height: auto;
@@ -212,7 +232,6 @@ p {
 }
 
 .latest-news .ln-article {
-  display: flex;
   width: 100%;
   height: auto;
   box-sizing: border-box;
@@ -311,7 +330,6 @@ p {
 
 .funding-rounds .fr-tittle-container {
   color: #fa4422;
-  display: flex;
   cursor: pointer;
 }
 
@@ -350,7 +368,6 @@ p {
 
 .funding-rounds .fr-box .upper-box {
   height: 35%;
-  display: flex;
   cursor: pointer;
 }
 
@@ -438,13 +455,11 @@ p {
   padding-left: 15px;
   height: 50%;
   font-size: 1.1em;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .funding-rounds .down-box .type-company {
-  display: flex;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -454,7 +469,6 @@ p {
 }
 
 .funding-rounds .down-box .type-fund {
-  display: flex;
   cursor: pointer;
 }
 
@@ -468,10 +482,6 @@ p {
   box-sizing: border-box;
   line-height: 1.5;
   cursor: pointer;
-}
-
-.funding-rounds .down-box .from-who .last-line {
-  display: flex;
 }
 
 .funding-rounds .down-box .from-who .last-line .fr-different {
@@ -497,7 +507,6 @@ p {
 }
 
 .grid-diversity .box-diversity .diversity-tittle-container {
-  display: flex;
   color: #fa4422;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -515,7 +524,6 @@ p {
 
 .grid-diversity .box-diversity .header-diversity {
   height: 31.4%;
-  display: flex;
   flex-direction: column;
   text-align: start;
   box-sizing: border-box;
@@ -536,7 +544,6 @@ p {
   height: 96px;
   background: #fff3f2;
   color: #fa4422;
-  display: flex;
   justify-content: space-between;
   margin-top: 1px;
 }
@@ -709,7 +716,6 @@ p {
 /* Latest Deals section  */
 
 .latest-deals .latest-tittle-container {
-  display: flex;
   align-items: baseline;
   box-sizing: border-box;
   margin: 0 20px;
@@ -744,7 +750,6 @@ p {
 }
 
 .grid-latest .latest-box {
-  display: flex;
   box-sizing: border-box;
 }
 
@@ -765,7 +770,6 @@ p {
 }
 
 .grid-latest .latest-box .deal-text .prices {
-  display: flex;
   align-items: baseline;
 }
 
@@ -845,12 +849,10 @@ footer .footer-links {
 }
 
 footer .footer-links .social-media {
-  display: flex;
   justify-content: center;
 }
 
 footer .footer-links .footer-nav {
-  display: flex;
   font-family: 'Poppins', sans-serif;
   font-size: 0.7em;
   justify-content: center;
@@ -873,7 +875,6 @@ footer .footer-links .footer-nav li:hover {
 
 footer .footer-links .social-media .icon {
   border-radius: 50%;
-  display: flex;
   background-color: #333;
   padding: 10px;
   border: 1px solid #333;
@@ -893,10 +894,6 @@ footer .footer-legal {
   align-items: center;
 }
 
-footer .footer-legal .first-line {
-  display: flex;
-}
-
 footer .footer-legal .tnw {
   height: 10px;
   cursor: pointer;
@@ -912,10 +909,30 @@ footer .footer-legal .last-logo {
 /* header */
 
 @media screen and (min-width: 768px) {
+  .header-nav,
+  .header-nav .container,
+  .header-nav .container .up-nav,
+  .header-nav .container .up-nav .nav-tnw,
+  .header-nav .container .up-nav .options,
+  .header-nav .container .nav-container,
+  .header-nav .nav-container-left,
+  .cover-stories,
+  .cover-stories .first-cover,
+  .cover-stories .wrap-cover,
+  .cover-stories .wrap-cover .box-cover-2,
+  .cover-stories .wrap-cover .third-cover .story-info,
+  .latest-news .ln-article,
+  .latest-news .ln-article .ln-info,
+  .grid-latest .latest-box,
+  footer .footer-wrap,
+  footer .footer-nav,
+  footer .footer-legal {
+    display: flex;
+  }
+
   .header-nav {
     height: 80px;
     width: 100%;
-    display: flex;
     background: white;
     z-index: 999;
     box-sizing: border-box;
@@ -924,7 +941,6 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container {
-    display: flex;
     flex-direction: column;
     height: 100%;
     box-sizing: border-box;
@@ -944,7 +960,6 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .up-nav {
-    display: flex;
     height: 32px;
     background-color: black;
     color: #a9a9a9;
@@ -953,7 +968,6 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .up-nav .nav-tnw {
-    display: flex;
     width: 64.4%;
     justify-content: space-evenly;
     align-items: center;
@@ -969,7 +983,6 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .up-nav .options {
-    display: flex;
     width: 35.6%;
     align-items: center;
     justify-content: space-evenly;
@@ -981,11 +994,9 @@ footer .footer-legal .last-logo {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9em;
     color: #a9a9a9;
-    display: flex;
   }
 
   .header-nav .nav-container-left {
-    display: flex;
     width: 92.75%;
     justify-content: space-evenly;
     align-items: center;
@@ -1013,7 +1024,6 @@ footer .footer-legal .last-logo {
   /* Section Cover-stories 768px */
 
   .cover-stories {
-    display: flex;
     box-sizing: border-box;
     width: 100%;
     margin: 110px 0 10px 10px;
@@ -1026,7 +1036,6 @@ footer .footer-legal .last-logo {
     margin: 0;
     height: 100%;
     box-sizing: border-box;
-    display: flex;
     justify-content: flex-end;
     padding-bottom: 5%;
   }
@@ -1050,7 +1059,6 @@ footer .footer-legal .last-logo {
     margin: 0 10px;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -1059,7 +1067,6 @@ footer .footer-legal .last-logo {
     box-sizing: border-box;
     margin: 0;
     height: 49%;
-    display: flex;
     justify-content: flex-end;
     padding-bottom: 60px;
   }
@@ -1078,7 +1085,6 @@ footer .footer-legal .last-logo {
   }
 
   .cover-stories .wrap-cover .third-cover .story-info {
-    display: flex;
     justify-content: flex-start;
   }
 
@@ -1102,7 +1108,6 @@ footer .footer-legal .last-logo {
   }
 
   .latest-news .ln-article {
-    display: flex;
     flex-direction: column;
     width: 100%;
     height: 244px;
@@ -1125,10 +1130,6 @@ footer .footer-legal .last-logo {
     margin-top: 0;
     padding-right: 20px;
     margin-left: auto;
-  }
-
-  .latest-news .ln-article .ln-info {
-    display: flex;
   }
 
   /* Funding Rounds section  768 */
@@ -1188,7 +1189,6 @@ footer .footer-legal .last-logo {
   }
 
   .grid-latest .latest-box {
-    display: flex;
     flex-direction: column;
     box-sizing: border-box;
   }
@@ -1212,30 +1212,29 @@ footer .footer-legal .last-logo {
 
   footer .footer-links {
     text-align: center;
+    padding-top: 5%;
   }
 
   footer .footer-wrap {
     margin: auto;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     width: auto;
   }
 
+  footer .footer-links .footer-nav {
+    justify-content: center;
+  }
+
   footer .footer-links .social-media,
-  .footer-nav {
+  footer .footer-links .footer-nav {
     width: auto;
     justify-content: center;
   }
 
   footer .footer-links .social-media .icon {
     margin-right: 15px;
-  }
-
-  footer .footer-nav {
-    display: flex;
-    justify-content: center !important;
   }
 
   footer .footer-nav .pages {
@@ -1250,7 +1249,6 @@ footer .footer-legal .last-logo {
   }
 
   footer .footer-legal {
-    display: flex;
     font-size: 1.1em;
     margin: 0;
     width: auto;
@@ -1576,8 +1574,8 @@ footer .footer-legal .last-logo {
     height: 185px;
   }
 
-  .funding-rounds .fr-4 {
-    display: flex !important;
+  .funding-rounds .fr-grid .fr-4 {
+    display: flex;
     flex-direction: column;
   }
 
@@ -1663,7 +1661,7 @@ footer .footer-legal .last-logo {
 
   footer .footer-nav {
     display: flex;
-    justify-content: center !important;
+    justify-content: center;
   }
 
   footer .footer-nav .pages {
@@ -1744,7 +1742,12 @@ footer .footer-legal .last-logo {
   }
 
   .funding-rounds .fr-4 {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
+  }
+
+  footer .footer-links {
+    bottom: 125px;
+    padding-top: 3%;
   }
 }
