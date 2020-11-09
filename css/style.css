@@ -1072,4 +1072,14 @@ footer .footer-legal .last-logo {
   .funding-rounds .fr-box .down-box {
     height: 185px;
   }
+
+  /* Grid Diversity */
+
+  .grid-diversity {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 685px);
+    gap: 20px;
+    box-sizing: border-box;
+  }
 }
