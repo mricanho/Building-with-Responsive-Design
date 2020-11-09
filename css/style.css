@@ -17,6 +17,7 @@ html {
 body {
   width: 100%;
   display: block;
+  background: #FAFAFA;
 }
 
 h1,
@@ -1135,4 +1136,322 @@ footer .footer-legal .last-logo {
   footer .footer-legal p {
     margin-right: 5px;
   }
+}
+
+/*                       Desktop Version 1024px         */
+
+/* header */
+
+@media screen and (min-width: 1024px) {
+
+  .header-nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background: white;
+    z-index: 999;
+    box-sizing: border-box;
+    position: fixed;
+    border: none;
+  }
+
+  .header-nav .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .header-nav .tnw-logo {
+    width: 13.8%;
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    display: none;
+  }
+
+  .header-nav .container .up-nav {
+    display: flex;
+    height: 32px;
+    background-color: black;
+    color: #a9a9a9;
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+  .header-nav .container .up-nav .nav-tnw {
+    display: flex;
+    width: 64.4%;
+    justify-content: start;
+    align-items: center;
+    border-left: 1px solid #a9a9a9;
+  }
+
+  .header-nav .container .up-nav .nav-tnw .news {
+    color: white;
+    margin-left: 20px;
+  }
+
+  .header-nav .container .up-nav .nav-tnw li {
+    margin-right: 15px;
+  }
+
+  .header-nav .container .up-nav .options {
+    display: flex;
+    width: 35.6%;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  .header-nav .container .up-nav .options .contact {
+    margin-right: 20px;
+  }
+
+  .header-nav .container .up-nav .options li {
+    margin-left: 15px;
+  }
+
+  .header-nav .container .nav-container {
+    width: 100%;
+    height: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    color: #a9a9a9;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header-nav .nav-container-left {
+    display: flex;
+    width: 92.75%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .header-nav .nav-container-left li {
+    margin-right: 20px;
+  }
+
+  .header-nav .nav-container-left .prime {
+    margin-left: 20px;
+  }
+
+  .header-nav .nav-container-right .icons-nav {
+    width: 48px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-left: 1px solid #eee;
+    margin-left: 58px;
+  }
+
+  .header-nav .nav-container-right .icons-nav .both-icons {
+    border: none;
+  }
+
+  .header-nav .nav-container-right .right-icon-nav {
+    display: none;
+  }
+
+  /* Section Cover-stories 1024px */
+
+  .cover-stories {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 110px 0 10px 10px;
+    height: 496px;
+    padding-right: 10px;
+  }
+
+  .cover-stories .first-cover {
+    width: 64.93%;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+  }
+
+  .cover-stories .first-cover h3 {
+    padding-bottom: 25px;
+  }
+
+  .cover-stories .first-cover h2 {
+    font-size: 2.8em;
+    padding-bottom: 20px;
+  }
+
+  .cover-stories .wrap-cover {
+    width: 35.07%;
+    height: 100%;
+    margin: 0 10px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cover-stories .wrap-cover .box-cover-2 {
+    box-sizing: border-box;
+    margin: 0;
+    height: 49%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+  }
+
+  .cover-stories .wrap-cover .third-cover {
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  .cover-stories .wrap-cover .third-cover h3 {
+    padding-bottom: 20px;
+  }
+
+  .cover-stories .wrap-cover .third-cover h2 {
+    padding-bottom: 20px;
+  }
+
+  .cover-stories .wrap-cover .third-cover .story-info {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cover-stories .wrap-cover .third-cover .share-icon,
+  .cover-stories .wrap-cover .third-cover .count-shares {
+    display: none;
+  }
+
+  .cover-stories .wrap-cover .third-cover .author,
+  .cover-stories .wrap-cover .third-cover .clock-icon {
+    margin-right: 5px;
+  }
+
+  /* Lastest News Grid */
+
+  .ln-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .latest-news .ln-article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 244px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+
+  .latest-news .ln-img {
+    width: 100%;
+    height: 52.19%;
+    box-sizing: border-box;
+    margin: 0 10px 0 0;
+  }
+
+  .latest-news .ln-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-right: 20px;
+    margin-left: auto;
+  }
+
+  .latest-news .ln-article .ln-info {
+    display: flex;
+  }
+
+  /* Funding Rounds section */
+
+  .funding-rounds {
+    margin-bottom: 10px;
+  }
+
+  .funding-rounds .fr-nav {
+    font-size: 0.9em;
+  }
+
+  .funding-rounds .fr-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .funding-rounds .fr-box .down-box {
+    height: 185px;
+  }
+
+  /* Grid Diversity */
+
+  .grid-diversity {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 685px);
+    gap: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Latest Deals section */
+
+  .grid-latest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+
+  .grid-latest .latest-box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .grid-latest .latest-box .deal-img {
+    width: 100%;
+    height: 230px;
+  }
+
+  .grid-latest .latest-box .deal-text {
+    width: 100%;
+    margin: 0;
+    font-size: 1.1em;
+  }
+
+  /* Footer */
+
+  footer .footer-wrap {
+    margin-left: 24%;
+  }
+
+  footer .footer-links .social-media,
+  .footer-nav {
+    width: 70%;
+  }
+
+  footer .legal-wrapper {
+    background: black;
+  }
+
+  footer .footer-legal {
+    display: flex;
+    margin-left: 21%;
+    font-size: 1.1em;
+  }
+
+  footer .footer-legal p {
+    margin-right: 5px;
+  }
+
 }
