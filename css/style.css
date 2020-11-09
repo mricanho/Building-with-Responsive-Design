@@ -347,6 +347,10 @@ p {
   cursor: pointer;
 }
 
+.funding-rounds .fr-4 {
+  display: none;
+}
+
 .funding-rounds .fr-1 .fr-img {
   background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F976320572174098432%2FpdjRTkiO.jpg&signature=5375934e5a3ea0ad7b931970674db592);
   background-position: 50%;
@@ -363,6 +367,13 @@ p {
 
 .funding-rounds .fr-3 .fr-img {
   background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F872115588323258368%2FERUMO3sS.jpg&signature=da19c7ac9c9be17623cfc620ee006906);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funding-rounds .fr-4 .fr-img {
+  background: url(https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1205699084679409665%2Fr4TSdbnn.jpg&signature=b12234564f447cfe9dac63c14c6b68ae);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1131,6 +1142,10 @@ footer .footer-legal .last-logo {
     height: 185px;
   }
 
+  .funding-rounds .fr-grid .fr-4 {
+    display: none;
+  }
+
   /* Grid Diversity */
 
   .grid-diversity {
@@ -1406,7 +1421,7 @@ footer .footer-legal .last-logo {
     margin-right: 5px;
   }
 
-  /* Lastest News Grid 1024px*/
+  /* Lastest News Grid 1024px */
 
   .latest-news .ln-tittle-container {
     margin-left: 112.5px;
@@ -1454,25 +1469,55 @@ footer .footer-legal .last-logo {
     display: flex;
   }
 
-  /* Funding Rounds section */
+  /* Funding Rounds section 1024px */
 
   .funding-rounds {
     margin-bottom: 10px;
+    margin-left: 112.5px;
+    margin-right: 112.5px;
+  }
+
+  .funding-rounds .funding-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .funding-rounds .fr-tittle-container {
+    width: 70%;
   }
 
   .funding-rounds .fr-nav {
-    font-size: 0.9em;
+    width: 30%;
+  }
+
+  .funding-rounds .fr-nav ul {
+    width: 100%;
+    display: flex;
+    font-size: 1.1em;
+    justify-content: flex-end;
+    margin-right: auto;
+  }
+
+  .funding-rounds .fr-nav .li-1 {
+    margin-left: 20px;
   }
 
   .funding-rounds .fr-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
     box-sizing: border-box;
   }
 
   .funding-rounds .fr-box .down-box {
     height: 185px;
+  }
+
+  .funding-rounds .fr-4 {
+    display: flex !important;
+    flex-direction: column;
   }
 
   /* Grid Diversity */
