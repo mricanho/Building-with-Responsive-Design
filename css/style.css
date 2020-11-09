@@ -1406,20 +1406,25 @@ footer .footer-legal .last-logo {
     margin-right: 5px;
   }
 
-  /* Lastest News Grid */
+  /* Lastest News Grid 1024px*/
+
+  .latest-news .ln-tittle-container {
+    margin-left: 112.5px;
+  }
 
   .ln-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
     box-sizing: border-box;
+    margin: 0 112.5px;
   }
 
   .latest-news .ln-article {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 244px;
+    height: 240px;
     box-sizing: border-box;
     justify-content: space-evenly;
     margin: 0;
@@ -1428,9 +1433,8 @@ footer .footer-legal .last-logo {
 
   .latest-news .ln-img {
     width: 100%;
-    height: 52.19%;
+    height: 270px;
     box-sizing: border-box;
-    margin: 0 10px 0 0;
   }
 
   .latest-news .ln-text {
@@ -1439,6 +1443,11 @@ footer .footer-legal .last-logo {
     margin-top: 0;
     padding-right: 20px;
     margin-left: auto;
+    font-size: 1.1em;
+  }
+
+  .latest-news .ln-text .article-tittle {
+    font-size: 1.2em;
   }
 
   .latest-news .ln-article .ln-info {
