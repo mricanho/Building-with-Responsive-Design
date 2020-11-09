@@ -836,7 +836,7 @@ footer .footer-legal .last-logo {
   height: 9px;
 }
 
-/*                       Desktop Version         */
+/*                       iPad Version         */
 
 /* header */
 
@@ -1109,5 +1109,16 @@ footer .footer-legal .last-logo {
     width: 100%;
     margin: 0;
     font-size: 1.1em;
+  }
+
+  /* Footer */
+
+  footer .footer-wrap {
+    margin-left: 23%;
+  }
+
+  footer .footer-links .social-media,
+  .footer-nav {
+    width: 70%;
   }
 }
