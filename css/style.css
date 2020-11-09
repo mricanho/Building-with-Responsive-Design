@@ -1520,7 +1520,7 @@ footer .footer-legal .last-logo {
     flex-direction: column;
   }
 
-  /* Grid Diversity 1024px*/
+  /* Grid Diversity 1024px */
 
   .grid-diversity {
     display: grid;
@@ -1533,15 +1533,25 @@ footer .footer-legal .last-logo {
     font-size: 1.15em;
   }
 
-  /* Latest Deals section */
+  /* Latest Deals section 1024px */
+
+  .latest-deals {
+    margin: 0 112.5px 0 112.5px;
+  }
+
+  .latest-deals .latest-tittle-container {
+    margin: 0 0 30px 0;
+    color: #fa4422;
+  }
 
   .grid-latest {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
     box-sizing: border-box;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+    padding: 0;
   }
 
   .grid-latest .latest-box {
@@ -1561,24 +1571,44 @@ footer .footer-legal .last-logo {
     font-size: 1.1em;
   }
 
-  /* Footer */
+  /* Footer 1024px */
+
+  footer {
+    background: black;
+  }
 
   footer .footer-wrap {
-    margin-left: 24%;
+    margin-left: 28%;
   }
 
   footer .footer-links .social-media,
   .footer-nav {
-    width: 70%;
+    width: 60%;
+    justify-content: center;
+  }
+
+  footer .footer-links .social-media .icon {
+    margin-right: 15px;
+  }
+
+  footer .footer-nav {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  footer .footer-nav .pages {
+    margin-right: 15px;
+    font-size: 1.2em;
   }
 
   footer .legal-wrapper {
     background: black;
+    width: 1192px;
   }
 
   footer .footer-legal {
     display: flex;
-    margin-left: 21%;
+    margin-left: 34%;
     font-size: 1.1em;
   }
 
