@@ -10,6 +10,10 @@ html {
   font-size: 16px;
 }
 
+.general-wrapper {
+  overflow-x: hidden;
+}
+
 body {
   width: 100%;
   display: block;
@@ -62,13 +66,13 @@ p {
   background: white;
   z-index: 999;
   opacity: 1;
-  border: 1px solid #eee;
 }
 
 .header-nav .container {
   width: 66.875%;
   height: 48px;
   overflow: hidden;
+  border-bottom: 1px solid #eee;
 }
 
 .header-nav .tnw-logo {
@@ -845,6 +849,7 @@ footer .footer-legal .last-logo {
     z-index: 999;
     box-sizing: border-box;
     position: fixed;
+    border: none;
   }
 
   .header-nav .container {
@@ -928,5 +933,83 @@ footer .footer-legal .last-logo {
 
   .header-nav .nav-container-right .right-icon-nav {
     display: none;
+  }
+
+  /* Section Cover-stories 768px */
+
+  .cover-stories {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 110px 0 10px 10px;
+    height: 496px;
+    padding-right: 10px;
+  }
+
+  .cover-stories .first-cover {
+    width: 64.93%;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+  }
+
+  .cover-stories .first-cover h3 {
+    padding-bottom: 25px;
+  }
+
+  .cover-stories .first-cover h2 {
+    font-size: 2.8em;
+    padding-bottom: 20px;
+  }
+
+  .cover-stories .wrap-cover {
+    width: 35.07%;
+    height: 100%;
+    margin: 0 10px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cover-stories .wrap-cover .box-cover-2 {
+    box-sizing: border-box;
+    margin: 0;
+    height: 49%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+  }
+
+  .cover-stories .wrap-cover .third-cover {
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  .cover-stories .wrap-cover .third-cover h3 {
+    padding-bottom: 20px;
+  }
+
+  .cover-stories .wrap-cover .third-cover h2 {
+    padding-bottom: 20px;
+  }
+
+  .cover-stories .wrap-cover .third-cover .story-info {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cover-stories .wrap-cover .third-cover .share-icon,
+  .cover-stories .wrap-cover .third-cover .count-shares {
+    display: none;
+  }
+
+  .cover-stories .wrap-cover .third-cover .author,
+  .cover-stories .wrap-cover .third-cover .clock-icon {
+    margin-right: 5px;
   }
 }
