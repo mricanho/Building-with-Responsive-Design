@@ -1,12 +1,11 @@
 html {
   justify-content: center;
-  width: 100%;
   font-family: 'Darker Grotesque', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Quicksand', sans-serif;
-  flex-direction: column;
   box-sizing: border-box;
   font-size: 16px;
+  width: 100%;
 }
 
 .general-wrapper {
@@ -14,7 +13,6 @@ html {
 }
 
 body {
-  width: 100%;
   display: block;
   background: #fafafa;
 }
@@ -79,6 +77,26 @@ footer .footer-legal .first-lin {
   display: flex;
 }
 
+body,
+.header-nav,
+.cover-stories,
+.latest-news .ln-tittle-container,
+.latest-news .ln-article,
+.funding-rounds .fr-nav,
+.funding-rounds .fr-box,
+.funding-rounds .fr-box .upper-box .fr-presentation,
+.funding-rounds .fr-box .upper-box .company-name,
+.funding-rounds .down-box .fr-info {
+  width: 100%;
+}
+
+html,
+.cover-stories .box-cover,
+.funding-rounds .down-box .fr-info,
+.grid-diversity .box-diversity .header-diversity {
+  flex-direction: column;
+}
+
 /* Header Nav */
 
 .up-nav {
@@ -87,7 +105,6 @@ footer .footer-legal .first-lin {
 
 .header-nav {
   height: 48px;
-  width: 100%;
   position: fixed;
   background: white;
   z-index: 999;
@@ -146,7 +163,6 @@ footer .footer-legal .first-lin {
 /* Section Cover-stories */
 
 .cover-stories {
-  width: 100%;
   box-sizing: border-box;
   display: block;
   margin-top: 80px;
@@ -156,7 +172,6 @@ footer .footer-legal .first-lin {
   color: white;
   margin: 10px;
   height: 157.59px;
-  flex-direction: column;
   justify-content: space-evenly;
   box-sizing: border-box;
   padding: 10px;
@@ -212,7 +227,6 @@ footer .footer-legal .first-lin {
 
 .latest-news .ln-tittle-container {
   text-align: center;
-  width: 100%;
   height: auto;
 }
 
@@ -232,7 +246,6 @@ footer .footer-legal .first-lin {
 }
 
 .latest-news .ln-article {
-  width: 100%;
   height: auto;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -344,7 +357,6 @@ footer .footer-legal .first-lin {
   font-size: 1.1em;
   font-weight: 550;
   line-height: 2;
-  width: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -362,7 +374,6 @@ footer .footer-legal .first-lin {
 
 .funding-rounds .fr-box {
   height: 282.13px;
-  width: 100%;
   margin-bottom: 15px;
 }
 
@@ -411,13 +422,8 @@ footer .footer-legal .first-lin {
   position: absolute;
 }
 
-.funding-rounds .fr-box .upper-box .fr-presentation {
-  width: 100%;
-}
-
 .funding-rounds .fr-box .upper-box .company-name {
   height: 43.31px;
-  width: 100%;
   background: #fa4422;
   color: white;
   box-sizing: border-box;
@@ -451,11 +457,9 @@ footer .footer-legal .first-lin {
   box-sizing: border-box;
   padding-bottom: 10px;
   border-bottom: 1px solid #fec5bb;
-  width: 100%;
   padding-left: 15px;
   height: 50%;
   font-size: 1.1em;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -524,7 +528,6 @@ footer .footer-legal .first-lin {
 
 .grid-diversity .box-diversity .header-diversity {
   height: 31.4%;
-  flex-direction: column;
   text-align: start;
   box-sizing: border-box;
   padding: 100px 10px 0 10px;
@@ -930,9 +933,24 @@ footer .footer-legal .last-logo {
     display: flex;
   }
 
-  .header-nav {
-    height: 80px;
+  .header-nav,
+  .header-nav .container .nav-container,
+  .cover-stories,
+  .latest-news .ln-article,
+  .latest-news .ln-img,
+  .latest-news .ln-text,
+  .grid-latest .latest-box .deal-img,
+  .grid-latest .latest-box .deal-text,
+  footer .legal-wrapper {
     width: 100%;
+  }
+
+  .header-nav,
+  .header-nav .tnw-logo {
+    height: 80px;
+  }
+
+  .header-nav {
     background: white;
     z-index: 999;
     box-sizing: border-box;
@@ -941,16 +959,22 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container {
-    flex-direction: column;
     height: 100%;
     box-sizing: border-box;
     width: 86.2%;
   }
 
+  .header-nav .container,
+  .cover-stories .wrap-cover,
+  .latest-news .ln-article,
+  .grid-latest .latest-box,
+  footer .footer-wrap {
+    flex-direction: column;
+  }
+
   .header-nav .tnw-logo {
     width: 13.8%;
     background-color: black;
-    height: 80px;
     text-align: center;
   }
 
@@ -989,7 +1013,6 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .nav-container {
-    width: 100%;
     height: 48px;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9em;
@@ -1025,7 +1048,6 @@ footer .footer-legal .last-logo {
 
   .cover-stories {
     box-sizing: border-box;
-    width: 100%;
     margin: 110px 0 10px 10px;
     height: 496px;
     padding-right: 10px;
@@ -1059,7 +1081,6 @@ footer .footer-legal .last-logo {
     margin: 0 10px;
     padding: 0;
     box-sizing: border-box;
-    flex-direction: column;
     justify-content: space-between;
   }
 
@@ -1108,8 +1129,6 @@ footer .footer-legal .last-logo {
   }
 
   .latest-news .ln-article {
-    flex-direction: column;
-    width: 100%;
     height: 244px;
     box-sizing: border-box;
     justify-content: space-evenly;
@@ -1118,14 +1137,12 @@ footer .footer-legal .last-logo {
   }
 
   .latest-news .ln-img {
-    width: 100%;
     height: 52.19%;
     box-sizing: border-box;
     margin: 0 10px 0 0;
   }
 
   .latest-news .ln-text {
-    width: 100%;
     box-sizing: border-box;
     margin-top: 0;
     padding-right: 20px;
@@ -1189,17 +1206,14 @@ footer .footer-legal .last-logo {
   }
 
   .grid-latest .latest-box {
-    flex-direction: column;
     box-sizing: border-box;
   }
 
   .grid-latest .latest-box .deal-img {
-    width: 100%;
     height: 230px;
   }
 
   .grid-latest .latest-box .deal-text {
-    width: 100%;
     margin: 0;
     font-size: 1.1em;
   }
@@ -1217,7 +1231,6 @@ footer .footer-legal .last-logo {
 
   footer .footer-wrap {
     margin: auto;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     width: auto;
@@ -1244,7 +1257,6 @@ footer .footer-legal .last-logo {
 
   footer .legal-wrapper {
     background: black;
-    width: 100%;
     text-align: center;
   }
 
@@ -1267,9 +1279,6 @@ footer .footer-legal .last-logo {
 
 @media screen and (min-width: 1024px) {
   .header-nav {
-    height: 80px;
-    width: 100%;
-    display: flex;
     background: white;
     z-index: 999;
     box-sizing: border-box;
@@ -1277,18 +1286,20 @@ footer .footer-legal .last-logo {
     border: none;
   }
 
+  .header-nav .container,
+  .latest-news .ln-img,
+  .grid-latest .latest-box .deal-img {
+    width: 100%;
+  }
+
   .header-nav .container {
-    display: flex;
-    flex-direction: column;
     height: 100%;
     box-sizing: border-box;
-    width: 100%;
   }
 
   .header-nav .tnw-logo {
     width: 13.8%;
     background-color: black;
-    height: 80px;
     text-align: center;
     display: none;
   }
@@ -1298,17 +1309,12 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .up-nav {
-    display: flex;
     height: 32px;
     background-color: black;
-    color: #a9a9a9;
     font-size: 0.8em;
-    font-weight: 600;
-    width: 100%;
   }
 
   .header-nav .container .up-nav .nav-tnw {
-    display: flex;
     width: 64.4%;
     justify-content: start;
     align-items: center;
@@ -1325,7 +1331,6 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .up-nav .options {
-    display: flex;
     width: 35.6%;
     justify-content: flex-end;
     margin-left: auto;
@@ -1340,17 +1345,14 @@ footer .footer-legal .last-logo {
   }
 
   .header-nav .container .nav-container {
-    width: 100%;
     height: 48px;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9em;
     color: #a9a9a9;
-    display: flex;
     justify-content: flex-start;
   }
 
   .header-nav .nav-container-left {
-    display: flex;
     width: 92.75%;
     justify-content: flex-start;
     align-items: center;
@@ -1383,9 +1385,6 @@ footer .footer-legal .last-logo {
   /* Section Cover-stories 1024px */
 
   .cover-stories {
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
     margin: 110px 0 10px 10px;
     height: 338.5px;
     padding-right: 10px;
@@ -1396,7 +1395,6 @@ footer .footer-legal .last-logo {
     margin: 0;
     height: 100%;
     box-sizing: border-box;
-    display: flex;
     justify-content: flex-end;
     padding-bottom: 3%;
     background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
@@ -1427,8 +1425,6 @@ footer .footer-legal .last-logo {
     margin: 0 10px;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
   }
 
@@ -1436,13 +1432,12 @@ footer .footer-legal .last-logo {
     box-sizing: border-box;
     margin: 0;
     height: 49%;
-    display: flex;
     justify-content: flex-end;
     padding-bottom: 60px;
   }
 
   .cover-stories .wrap-cover .box-cover-2 h2 {
-    font-size: 2.3em;
+    font-size: 2em;
   }
 
   .cover-stories .wrap-cover .third-cover {
@@ -1456,11 +1451,6 @@ footer .footer-legal .last-logo {
 
   .cover-stories .wrap-cover .third-cover h2 {
     padding-bottom: 20px;
-  }
-
-  .cover-stories .wrap-cover .third-cover .story-info {
-    display: flex;
-    justify-content: flex-start;
   }
 
   .cover-stories .wrap-cover .third-cover .share-icon,
@@ -1488,9 +1478,6 @@ footer .footer-legal .last-logo {
   }
 
   .latest-news .ln-article {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     height: 240px;
     box-sizing: border-box;
     justify-content: space-evenly;
@@ -1499,18 +1486,16 @@ footer .footer-legal .last-logo {
   }
 
   .latest-news .ln-img {
-    width: 100%;
-    height: 270px;
+    height: 125px;
     box-sizing: border-box;
   }
 
   .latest-news .ln-text {
-    width: 100%;
     box-sizing: border-box;
     margin-top: 0;
     padding-right: 20px;
     margin-left: auto;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .latest-news .ln-text .article-tittle {
@@ -1518,7 +1503,7 @@ footer .footer-legal .last-logo {
   }
 
   .latest-news .ln-article .ln-info {
-    display: flex;
+    font-size: 0.7em;
   }
 
   /* Funding Rounds section 1024px */
@@ -1530,10 +1515,7 @@ footer .footer-legal .last-logo {
   }
 
   .funding-rounds .funding-wrapper {
-    display: flex;
-    width: 100%;
     margin-bottom: 20px;
-    flex-direction: column;
   }
 
   .funding-rounds .fr-tittle-container {
@@ -1541,19 +1523,17 @@ footer .footer-legal .last-logo {
   }
 
   .funding-rounds .fr-nav {
-    width: 100%;
     display: inline;
   }
 
   .funding-rounds .uni {
-    width: 100%;
     display: flex;
     font-size: 1em;
     margin-left: auto;
   }
 
-  .funding-rounds .uni .ops1,
-  .ops2,
+  .funding-rounds .fr-nav .uni .ops1,
+  .funding-rounds .fr-nav .uni .ops2,
   .ops3 {
     display: inline;
     margin-right: 10px;
@@ -1615,17 +1595,14 @@ footer .footer-legal .last-logo {
 
   .grid-latest .latest-box {
     display: flex;
-    flex-direction: column;
     box-sizing: border-box;
   }
 
   .grid-latest .latest-box .deal-img {
-    width: 100%;
     height: 230px;
   }
 
   .grid-latest .latest-box .deal-text {
-    width: 100%;
     margin: 0;
     font-size: 1.1em;
   }
@@ -1642,8 +1619,6 @@ footer .footer-legal .last-logo {
 
   footer .footer-wrap {
     margin: auto;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     width: auto;
@@ -1659,11 +1634,6 @@ footer .footer-legal .last-logo {
     margin-right: 15px;
   }
 
-  footer .footer-nav {
-    display: flex;
-    justify-content: center;
-  }
-
   footer .footer-nav .pages {
     margin-right: 15px;
     font-size: 1.2em;
@@ -1671,12 +1641,10 @@ footer .footer-legal .last-logo {
 
   footer .legal-wrapper {
     background: black;
-    width: 100%;
     text-align: center;
   }
 
   footer .footer-legal {
-    display: flex;
     font-size: 1.1em;
     margin: 0;
     width: auto;
@@ -1708,6 +1676,7 @@ footer .footer-legal .last-logo {
 
   .funding-rounds .fr-tittle-container {
     width: 57%;
+    font-size: 1.4em;
   }
 
   .funding-rounds .fr-nav {
@@ -1716,9 +1685,8 @@ footer .footer-legal .last-logo {
   }
 
   .funding-rounds .fr-nav .uni {
-    width: 100%;
     display: flex;
-    font-size: 1.1em;
+    font-size: 1em;
     flex-direction: row-reverse;
   }
 
@@ -1739,11 +1707,6 @@ footer .footer-legal .last-logo {
 
   .funding-rounds .fr-box .down-box {
     height: 185px;
-  }
-
-  .funding-rounds .fr-4 {
-    display: flex;
-    flex-direction: column;
   }
 
   footer .footer-links {
