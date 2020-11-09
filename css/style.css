@@ -1253,6 +1253,7 @@ footer .footer-legal .last-logo {
     color: #a9a9a9;
     font-size: 0.8em;
     font-weight: 600;
+    width: 100%;
   }
 
   .header-nav .container .up-nav .nav-tnw {
@@ -1260,7 +1261,7 @@ footer .footer-legal .last-logo {
     width: 64.4%;
     justify-content: start;
     align-items: center;
-    border-left: 1px solid #a9a9a9;
+    border-left: none;
   }
 
   .header-nav .container .up-nav .nav-tnw .news {
