@@ -74,6 +74,7 @@ p {
   height: 48px;
   overflow: hidden;
   border-bottom: 1px solid #eee;
+  cursor: pointer;
 }
 
 .header-nav .tnw-logo {
@@ -322,7 +323,7 @@ p {
 
 .funding-rounds .fr-nav {
   color: #fa4422;
-  font-size: 0.8em;
+  font-size: 1.1em;
   font-weight: 550;
   line-height: 2;
   width: 100%;
@@ -330,7 +331,13 @@ p {
   margin-bottom: 10px;
 }
 
-.funding-rounds .fr-nav li:hover {
+.funding-rounds .fr-nav .uni .ops1,
+.ops2,
+.ops3 {
+  display: none;
+}
+
+.funding-rounds .fr-nav .li-1:hover {
   color: #131313;
   cursor: pointer;
 }
@@ -1121,14 +1128,24 @@ footer .footer-legal .last-logo {
     display: flex;
   }
 
-  /* Funding Rounds section */
+  /* Funding Rounds section  768 */
 
   .funding-rounds {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
-  .funding-rounds .fr-nav {
-    font-size: 0.9em;
+  .funding-rounds .funding-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .funding-rounds .fr-nav p {
+    font-size: 1.3em;
+  }
+
+  .funding-rounds .ops1,
+  .ops2,
+  .ops3 {
+    display: none;
   }
 
   .funding-rounds .fr-grid {
@@ -1237,7 +1254,7 @@ footer .footer-legal .last-logo {
     justify-content: center;
   }
 
-  footer .footer-legal p {
+  footer .footer-legal .lining {
     margin-right: 5px;
     margin-left: 0;
   }
@@ -1506,7 +1523,7 @@ footer .footer-legal .last-logo {
   /* Funding Rounds section 1024px */
 
   .funding-rounds {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-left: 112.5px;
     margin-right: 112.5px;
   }
@@ -1514,28 +1531,35 @@ footer .footer-legal .last-logo {
   .funding-rounds .funding-wrapper {
     display: flex;
     width: 100%;
-    align-items: center;
     margin-bottom: 20px;
+    flex-direction: column;
   }
 
   .funding-rounds .fr-tittle-container {
-    width: 70%;
+    width: 57%;
   }
 
   .funding-rounds .fr-nav {
-    width: 30%;
+    width: 100%;
+    display: inline;
   }
 
-  .funding-rounds .fr-nav ul {
+  .funding-rounds .uni {
     width: 100%;
     display: flex;
-    font-size: 1.1em;
-    justify-content: flex-end;
-    margin-right: auto;
+    font-size: 1em;
+    margin-left: auto;
+  }
+
+  .funding-rounds .uni .ops1,
+  .ops2,
+  .ops3 {
+    display: inline;
+    margin-right: 10px;
   }
 
   .funding-rounds .fr-nav .li-1 {
-    margin-left: 20px;
+    margin-right: 10px;
   }
 
   .funding-rounds .fr-grid {
@@ -1661,5 +1685,63 @@ footer .footer-legal .last-logo {
   footer .footer-legal p {
     margin-right: 5px;
     margin-left: 0;
+  }
+}
+
+/* 1440px  */
+
+@media screen and (min-width: 1440px) {
+  .funding-rounds {
+    margin-bottom: 10px;
+    margin-left: 112.5px;
+    margin-right: 112.5px;
+  }
+
+  .funding-rounds .funding-wrapper {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .funding-rounds .fr-tittle-container {
+    width: 57%;
+  }
+
+  .funding-rounds .fr-nav {
+    width: 45%;
+    display: inline;
+  }
+
+  .funding-rounds .fr-nav .uni {
+    width: 100%;
+    display: flex;
+    font-size: 1.1em;
+    flex-direction: row-reverse;
+  }
+
+  .funding-rounds .fr-nav .uni .ops3 {
+    display: none;
+  }
+
+  .funding-rounds .fr-nav .li-1 {
+    margin-right: 10px;
+  }
+
+  .funding-rounds .fr-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    box-sizing: border-box;
+  }
+
+  .funding-rounds .fr-box .down-box {
+    height: 185px;
+  }
+
+  .funding-rounds .fr-4 {
+    display: flex !important;
+    flex-direction: column;
   }
 }
