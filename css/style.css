@@ -1012,4 +1012,43 @@ footer .footer-legal .last-logo {
   .cover-stories .wrap-cover .third-cover .clock-icon {
     margin-right: 5px;
   }
+
+  /* Lastest News Grid */
+
+  .ln-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .latest-news .ln-article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 244px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+
+  .latest-news .ln-img {
+    width: 100%;
+    height: 52.19%;
+    box-sizing: border-box;
+    margin: 0 10px 0 0;
+  }
+
+  .latest-news .ln-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-right: 20px;
+    margin-left: auto;
+  }
+
+  .latest-news .ln-article .ln-info {
+    display: flex;
+  }
 }
