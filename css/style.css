@@ -17,7 +17,7 @@ html {
 body {
   width: 100%;
   display: block;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 h1,
@@ -81,6 +81,7 @@ p {
   background-color: black;
   height: 48px;
   text-align: center;
+  cursor: pointer;
 }
 
 .header-nav .tnw-logo .svg-1 {
@@ -101,6 +102,7 @@ p {
   width: 96px;
   display: flex;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .header-nav .nav-container-right .icons-nav .both-icons {
@@ -135,6 +137,7 @@ p {
   justify-content: space-evenly;
   box-sizing: border-box;
   padding: 10px;
+  cursor: pointer;
 }
 
 .cover-stories .box-cover .article-category {
@@ -160,6 +163,10 @@ p {
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-17-796x417.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cover-stories .first-cover .tnw-logo {
+  display: none;
 }
 
 .cover-stories .second-cover {
@@ -192,6 +199,7 @@ p {
   margin-bottom: 20px;
   color: #fa4422;
   font-weight: 900;
+  cursor: pointer;
 }
 
 .latest-news .next-arrow {
@@ -199,6 +207,7 @@ p {
   height: 16px;
   margin-left: 5px;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .latest-news .ln-article {
@@ -209,10 +218,15 @@ p {
   margin-bottom: 20px;
 }
 
+.latest-news h4 {
+  cursor: pointer;
+}
+
 .latest-news .ln-img {
   width: 75px;
   height: 75px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .latest-news .ln-text {
@@ -297,6 +311,7 @@ p {
 .funding-rounds .fr-tittle-container {
   color: #fa4422;
   display: flex;
+  cursor: pointer;
 }
 
 .funding-rounds .next-arrow {
@@ -315,6 +330,11 @@ p {
   margin-bottom: 10px;
 }
 
+.funding-rounds .fr-nav li:hover {
+  color: #131313;
+  cursor: pointer;
+}
+
 .funding-rounds .fr-box {
   height: 282.13px;
   width: 100%;
@@ -324,6 +344,7 @@ p {
 .funding-rounds .fr-box .upper-box {
   height: 35%;
   display: flex;
+  cursor: pointer;
 }
 
 .funding-rounds .fr-1 .fr-img {
@@ -407,6 +428,7 @@ p {
 .funding-rounds .down-box .type-company {
   display: flex;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .funding-rounds .down-box .type-company img {
@@ -415,6 +437,7 @@ p {
 
 .funding-rounds .down-box .type-fund {
   display: flex;
+  cursor: pointer;
 }
 
 .funding-rounds .down-box .type-fund img {
@@ -426,6 +449,7 @@ p {
   padding-top: 15px;
   box-sizing: border-box;
   line-height: 1.5;
+  cursor: pointer;
 }
 
 .funding-rounds .down-box .from-who .last-line {
@@ -451,6 +475,7 @@ p {
 .grid-diversity .box-diversity {
   box-sizing: border-box;
   margin-bottom: -30px;
+  cursor: pointer;
 }
 
 .grid-diversity .box-diversity .diversity-tittle-container {
@@ -458,6 +483,10 @@ p {
   color: #fa4422;
   box-sizing: border-box;
   margin-bottom: 20px;
+}
+
+.grid-diversity .box-diversity .diversity-tittle-container:hover {
+  color: #131313;
 }
 
 .box-diversity .diversity-tittle-container .next-arrow {
@@ -670,10 +699,16 @@ p {
   justify-content: space-between;
 }
 
+.latest-deals .latest-tittle-container:hover {
+  color: #131313;
+  cursor: pointer;
+}
+
 .latest-deals .latest-tittle-container .next-arrow {
   height: 16px;
   width: 16px;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .latest-deals .latest-tittle-container h4 {
@@ -698,6 +733,7 @@ p {
 .grid-latest .latest-box .deal-img {
   height: 75px;
   width: 75px;
+  cursor: pointer;
 }
 
 .grid-latest .latest-box .deal-text {
@@ -707,6 +743,7 @@ p {
 
 .grid-latest .latest-box .deal-text .upper-deal {
   margin-bottom: 5px;
+  cursor: pointer;
 }
 
 .grid-latest .latest-box .deal-text .prices {
@@ -784,7 +821,7 @@ p {
 footer .footer-links {
   height: 161px;
   background: #131313;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   box-sizing: border-box;
   padding: 20px;
@@ -808,6 +845,11 @@ footer .footer-links .footer-nav {
   box-sizing: border-box;
 }
 
+footer .footer-links .footer-nav li:hover {
+  color: white;
+  cursor: pointer;
+}
+
 footer .footer-links .social-media .icon {
   border-radius: 50%;
   display: flex;
@@ -815,6 +857,11 @@ footer .footer-links .social-media .icon {
   padding: 10px;
   border: 1px solid #333;
   align-items: center;
+}
+
+footer .footer-links .social-media .icon:hover {
+  cursor: pointer;
+  background-color: #131313;
 }
 
 footer .footer-legal {
@@ -831,10 +878,12 @@ footer .footer-legal .first-line {
 
 footer .footer-legal .tnw {
   height: 10px;
+  cursor: pointer;
 }
 
 footer .footer-legal .last-logo {
   height: 9px;
+  cursor: pointer;
 }
 
 /*                       iPad Version         */
@@ -936,6 +985,10 @@ footer .footer-legal .last-logo {
     display: none;
   }
 
+  .header-nav .nope {
+    display: none;
+  }
+
   /* Section Cover-stories 768px */
 
   .cover-stories {
@@ -955,6 +1008,10 @@ footer .footer-legal .last-logo {
     display: flex;
     justify-content: flex-end;
     padding-bottom: 5%;
+  }
+
+  .cover-stories .first-cover .tnw-logo {
+    display: none;
   }
 
   .cover-stories .first-cover h3 {
@@ -1143,7 +1200,6 @@ footer .footer-legal .last-logo {
 /* header */
 
 @media screen and (min-width: 1024px) {
-
   .header-nav {
     height: 80px;
     width: 100%;
@@ -1169,6 +1225,10 @@ footer .footer-legal .last-logo {
     height: 80px;
     text-align: center;
     display: none;
+  }
+
+  .header-nav .nav-container-left li {
+    margin-right: 20px;
   }
 
   .header-nav .container .up-nav {
@@ -1229,10 +1289,6 @@ footer .footer-legal .last-logo {
     align-items: center;
   }
 
-  .header-nav .nav-container-left li {
-    margin-right: 20px;
-  }
-
   .header-nav .nav-container-left .prime {
     margin-left: 20px;
   }
@@ -1253,6 +1309,10 @@ footer .footer-legal .last-logo {
     display: none;
   }
 
+  .header-nav .nope {
+    display: flex;
+  }
+
   /* Section Cover-stories 1024px */
 
   .cover-stories {
@@ -1260,7 +1320,7 @@ footer .footer-legal .last-logo {
     box-sizing: border-box;
     width: 100%;
     margin: 110px 0 10px 10px;
-    height: 496px;
+    height: 338.5px;
     padding-right: 10px;
   }
 
@@ -1271,12 +1331,11 @@ footer .footer-legal .last-logo {
     box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 5%;
-    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png), linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-17-796x417.png");
-  }
-
-  .cover-stories .cover-gradient {
-    
+    padding-bottom: 3%;
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat, linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/image-17-796x417.png") no-repeat;
+    background-size: cover;
+    background-position: top;
   }
 
   .cover-stories .first-cover h3 {
@@ -1284,8 +1343,15 @@ footer .footer-legal .last-logo {
   }
 
   .cover-stories .first-cover h2 {
-    font-size: 2.8em;
-    padding-bottom: 20px;
+    font-size: 4em;
+    padding-bottom: 30px;
+  }
+
+  .cover-stories .first-cover .tnw-logo {
+    width: 32%;
+    display: block;
+    position: absolute;
+    top: 130px;
   }
 
   .cover-stories .wrap-cover {
@@ -1306,6 +1372,10 @@ footer .footer-legal .last-logo {
     display: flex;
     justify-content: flex-end;
     padding-bottom: 60px;
+  }
+
+  .cover-stories .wrap-cover .box-cover-2 h2 {
+    font-size: 2.3em;
   }
 
   .cover-stories .wrap-cover .third-cover {
@@ -1458,5 +1528,4 @@ footer .footer-legal .last-logo {
   footer .footer-legal p {
     margin-right: 5px;
   }
-
 }
