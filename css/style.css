@@ -1082,7 +1082,7 @@ footer .footer-legal .last-logo {
     margin-right: 5px;
   }
 
-  /* Lastest News Grid */
+  /* Lastest News Grid 768px*/
 
   .ln-grid {
     display: grid;
@@ -1184,29 +1184,62 @@ footer .footer-legal .last-logo {
     font-size: 1.1em;
   }
 
-  /* Footer */
+  /* Footer 768px*/
+
+  footer {
+    background: black;
+  }
+
+  footer .footer-links {
+    text-align: center;
+  }
 
   footer .footer-wrap {
-    margin-left: 24%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
   }
 
   footer .footer-links .social-media,
   .footer-nav {
-    width: 70%;
+    width: auto;
+    justify-content: center;
+  }
+
+  footer .footer-links .social-media .icon {
+    margin-right: 15px;
+  }
+
+  footer .footer-nav {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  footer .footer-nav .pages {
+    margin-right: 15px;
+    font-size: 1.2em;
   }
 
   footer .legal-wrapper {
     background: black;
+    width: 100%;
+    text-align: center;
   }
 
   footer .footer-legal {
     display: flex;
-    margin-left: 21%;
     font-size: 1.1em;
+    margin: 0;
+    width: auto;
+    justify-content: center;
   }
 
   footer .footer-legal p {
     margin-right: 5px;
+    margin-left: 0;
   }
 }
 
@@ -1578,13 +1611,22 @@ footer .footer-legal .last-logo {
     background: black;
   }
 
+  footer .footer-links {
+    text-align: center;
+  }
+
   footer .footer-wrap {
-    margin-left: 28%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
   }
 
   footer .footer-links .social-media,
   .footer-nav {
-    width: 60%;
+    width: auto;
     justify-content: center;
   }
 
@@ -1604,16 +1646,20 @@ footer .footer-legal .last-logo {
 
   footer .legal-wrapper {
     background: black;
-    width: 1192px;
+    width: 100%;
+    text-align: center;
   }
 
   footer .footer-legal {
     display: flex;
-    margin-left: 34%;
     font-size: 1.1em;
+    margin: 0;
+    width: auto;
+    justify-content: center;
   }
 
   footer .footer-legal p {
     margin-right: 5px;
+    margin-left: 0;
   }
 }
