@@ -1051,4 +1051,25 @@ footer .footer-legal .last-logo {
   .latest-news .ln-article .ln-info {
     display: flex;
   }
+
+  /* Funding Rounds section */
+
+  .funding-rounds {
+    margin-bottom: 10px;
+  }
+
+  .funding-rounds .fr-nav {
+    font-size: 0.9em;
+  }
+
+  .funding-rounds .fr-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  .funding-rounds .fr-box .down-box {
+    height: 185px;
+  }
 }
