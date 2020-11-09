@@ -840,27 +840,30 @@ footer .footer-links {
   height: 161px;
   background: #131313;
   color: whitesmoke;
-  text-align: center;
   box-sizing: border-box;
   padding: 20px;
 }
 
 footer .footer-links .social-media {
   display: flex;
-  justify-content: space-evenly;
-  margin: 15px 0 10px 0;
+  justify-content: center;
 }
 
 footer .footer-links .footer-nav {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-size: 0.7em;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 48px;
   text-align: center;
   font-weight: 100;
   padding: 20px;
   box-sizing: border-box;
+}
+
+footer .footer-links .social-media .icon,
+footer .footer-links .footer-nav .pages {
+  margin-right: 15px;
 }
 
 footer .footer-links .footer-nav li:hover {
