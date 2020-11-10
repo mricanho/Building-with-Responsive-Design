@@ -1160,7 +1160,7 @@ footer .footer-legal .last-logo {
   }
 
   .funding-rounds .fr-nav p {
-    font-size: 1.3em;
+    font-size: 0.8em;
   }
 
   .funding-rounds .ops1,
@@ -1676,12 +1676,17 @@ footer .footer-legal .last-logo {
 
   .funding-rounds .fr-tittle-container {
     width: 57%;
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   .funding-rounds .fr-nav {
     width: 45%;
     display: inline;
+  }
+
+  .funding-rounds .next-arrow {
+    width: 21px;
+    height: 21px;
   }
 
   .funding-rounds .fr-nav .uni {
